@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Fizyka - Elektronika</title>
+    <title>Paweł zmień to!</title>
     
     <meta name="author" content="Maciej Czyżewski" />
 
@@ -15,6 +15,12 @@
 
     <!-- JS -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+    </script>
 
     <!-- Favicon (Jak by była) -->
     <link rel="shortcut icon" href="favicon.png" />
@@ -28,24 +34,60 @@
 
     <div id="impress">
         <div id="bored" class="step" data-x="0" data-y="-1500">
-            <h1 style="font-size: 145px;">Zaczynamy!!!</h1>
+            <h1 style="font-size: 100px;">Elektromagnetyzm</h1>
+            <br>
+            <p style="float:left;">Prof. Marek Golka (Opiekun)</p>
+            <ul style="float:right">
+                <li>Paweł Poczobut</li>
+                <li>Adrian Koźluk</li>
+                <li>Maciej Czyżewski<li>
+                <li>Jakub Szcześniak</li>
+                <li>Krzysztof Małysa</li>
+            </ul>
+        </div>
+
+        <div id="b1" class="step" data-x="0" data-y="-850" style="width: 1000px;">
+            <h1 style="font-size: 40px; font-weight: bold;">Cele projektu: </h1><br>
+            <ul style="list-style-type:square">
+                <li>Poznanie praw elektormagnetyzmu</li>
+                <li>Uświadomienie społeczeństwa o tym co to jest prąd, jak go wytworzyć itp.</li>
+                <li>Poszerzanie własnych pasji i zaintersowań.</li>
+                <li>Uzyskanie promocji do 3. klasy gimnazjum :-D</li>
+            </ul>
+        </div>
+
+        <div id="b2" class="step present active" data-x="0" data-y="-220" style="width: 1000px;">
+            <h1 style="font-size: 40px;font-weight: bold;text-align: center;margin-left: -40px;">Plan prezentacji</h1><br>
+            <ul style="list-style-type:square;float: left;width: 290px;">
+                <li>Część teoretyczna
+                    <ul style="margin-left: 30px;list-style-type: circle;">
+                        <li>Elektrostatyka</li>
+                        <li>Prąd elektryczny</li>
+                        <li>Magnetyzm</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul style="list-style-type:square;float: right;width: width: 450px;width: 450px;">
+                <li>Część doświatczalna
+                    <ul style="margin-left: 30px;list-style-type: circle;width: 450px;">
+                        <li>Odkrycie indukcji elektromagnetycznej Faradaya</li>
+                        <li>Zjawisko termoelektryczne</li>
+                        <li>Zjawisko fotowoltaniczne</li>
+                        <li>Ogniwa galwaniczne</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="b3" class="step" data-x="0" data-y="350" style="width: 1000px;">
+            When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+            $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
         </div>
 
         <div id="overview" class="step present active" data-x="0000" data-y="1000" data-scale="8" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(3000px, 1500px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(10); -webkit-transform-style: preserve-3d;">
     </div>
 
     </div>
-
-    <div class="hint">
-        <p>Głuptasie! Używaj spacji!</p>
-    </div>
-
-    <script>
-    if ("ontouchstart" in document.documentElement) { 
-        document.querySelector(".hint").innerHTML = "<p>Głuptasie! Używaj spacji!</p>";
-    }
-    </script>
-
     <script src="js/impress.js"></script>
     <script>impress().init();</script>
 </body>
