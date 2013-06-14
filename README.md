@@ -1,13 +1,16 @@
 ## Wykładowcy
 
 Osoby pracujące: 
-Maciej Czyżewski (100%) 
+
+* `Maciej Czyżewski`: Zrobił prezentację + 1 doświatczenie
+
 
 Osoby które nie pracują: 
-Adrian Koźluk (0%) 
-Krzysztof Małysa (0%) 
-Jakub Szcześniak (0%) 
-Paweł Poczobut (0%) 
+
+* `Adrian Koźluk`
+* `Krzysztof Małysa`
+* `Jakub Szcześniak`
+* `Paweł Poczobut`
 
 ## Bugi
 MathJax należy samemu podlinkować.
