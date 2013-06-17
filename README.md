@@ -1,13 +1,17 @@
-## Wykładowcy
+## Twórcy
 
-Osoby pracujące: 
+Osoby w projekcie: 
 
-* `Maciej Czyżewski`: Zrobił prezentację + 1 doświatczenie
-* `Paweł Poczobut`
-* `Adrian Koźluk`
-* `Krzysztof Małysa`
-* `Jakub Szcześniak`
+* Maciej Czyżewski
+* Paweł Poczobut
+* Adrian Koźluk
+* Krzysztof Małysa
+* Jakub Szcześniak
 
 
-## Bugi
-MathJax należy samemu podlinkować.
+## Struktora folderów
+
+* `$$$` - Luźny folder na pomysły
+* `Wtorek` - Część teorytyczna
+* `Czwartek` - Część doświatczalna
+* `Final` - Końcowy projekt który wrzucimy do internetu

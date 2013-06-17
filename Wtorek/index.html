@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Metatags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Projekt Edukacyjny</title>
+    <meta name="author" content="Maciej Czyżewski" />
+    <!-- CSS -->
+<style>
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('css/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('css/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('css/EInbV5DfGHOiMmvb1Xr-hnhCUOGz7vYGh680lGh-uXM.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('css/PRmiXeptR36kaC0GEAetxh_xHqYgAV9Bl_ZQbYUxnQU.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('css/PRmiXeptR36kaC0GEAetxn5HxGBcBvicCpTp6spHfNo.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('css/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff') format('woff');
+}
+</style>
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <style>
+    p{text-align:justify;text-justify:newspaper}
+    </style>
+    <!-- JS -->
+    <style> body{background:rgba(0,0,0,0.01);}</style>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+    </script>
+    <!-- Favicon (Jak by była) -->
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body class="impress-not-supported">
+    <div class="fallback-message">
+        <!--<p>Twoja przeglądarka przeżyła chyba epokę kamienia łupanego! Zaintaluj sobie Chroma!</p>-->
+    </div>
+    <div id="impress">
+        <div id="bored" class="step" data-x="0" data-y="-1500" width="1000px">
+            <center><h1 style="font-size: 100px;"><b><i>Projekt Edukacyjny</i></b></h1></center>
+            <br>
+            <p style="float:left;"><b>Opiekun projektu:</b><br>prof. Marek Golka</p>
+            <ul style="float:right">
+                <b>Uczestnicy:</b>
+                <li>Paweł Poczobut</li>
+                <li>Adrian Koźluk</li>
+                <li>Maciej Czyżewski<li>
+                <li>Jakub Szcześniak</li>
+                <li>Krzysztof Małysa</li>
+            </ul>
+        </div>
+        <div id="intr1" class="step" data-x="0" data-y="-220" style="width: 1000px;">
+            <h1 style="font-size: 40px; font-weight: bold;">Cele projektu:</h1><br>
+            <ul style="list-style-type:square">
+                <li>Poznanie praw elektromagnetyzmu</li>
+                <li>Uświadomienie społeczeństwa o tym co to jest prąd, jak go wytworzyć itp.</li>
+                <li>Poszerzanie własnych pasji i zaintersowań.</li>
+                <li>Uzyskanie promocji do 3. klasy gimnazjum :-D</li>
+            </ul>
+        </div>
+        <div id="intr2" class="step" data-x="0" data-y="450" style="width: 1000px;">
+            <h1 style="font-size: 40px;font-weight: bold;text-align: center;margin-left: -40px;">Plan prezentacji</h1><br>
+            <ul style="list-style-type:square;float: left;width: 290px;">
+                <li><b>Część teoretyczna</b>
+                    <ul style="margin-left: 30px;list-style-type: circle;">
+                        <li>Elektrostatyka</li>
+                        <li>Prąd elektryczny</li>
+                        <li>Magnetyzm</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul style="list-style-type:square;float: right;width: width: 450px;width: 450px;">
+                <li><b>Część doświadczalna</b>
+                    <ul style="margin-left: 30px;list-style-type: circle;width: 450px;">
+                        <li>Odkrycie indukcji elektromagnetycznej Faradaya</li>
+                        <li>Zjawisko termoelektryczne</li>
+                        <li>Zjawisko fotowoltaniczne</li>
+                        <li>Ogniwa galwaniczne</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="ziemo1" class="step" data-x="1500" data-y="-500" data-rotate="0" style="width:1350px;">
+            <h1 style="font-size: 140px; text-align:center;">Elektrostatyka</h1>
+            <div style="text-align: center; font-size: 60px; margin-top: 55px">
+                $\nabla\cdot\vec{E}=\frac{\rho}{\epsilon_0}$<br>
+                $\nabla\times\vec{E}=\frac{\partial B}{\partial t}$
+            </div>
+        </div>
+        <div id="ziemo2" class="step" data-x="1500" data-y="300" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Ładunek elektryczny</i></b></font></center></h1><br>
+            <p>Jest to nieodłączna właściwość cząstek elementarnych, z których składają się wszystkie ciała; stanowi źródło pola elektromagnetycznego, a przejawami jego obecności, ruchu i oddziaływania są wszystkie zjawiska elektryczne.</p><p style="margin-top:20px;">Występują 2  rodzaje ładunków, które umownie nazywamy <b>dodatnimi</b> i <b>ujemnymi</b>.</p>
+            <p style="margin-top:20px;">Jednostką ładunku jest <b>kulomb</b> $(C)$. </p>
+        </div>
+        <div id="ziemo3" class="step" data-x="3000" data-y="-390" data-rotate="0" style="width:1350px;">
+            <p>Ładunek jest <b>skwantowany</b>, czyli każdy ładunek $Q$ jest wielokrotnością pewnego <b>ładunku elementarnego</b>. Wobec tego każdy ładunek $Q$ można zapisać w postaci:</p>
+            <center><p style="font-size:45px">\begin{equation} Q=n\cdot e\end{equation}</p></center>
+            gdzie:<br>
+            <ul style="list-style-type:square">
+                <li>$e$ - ładunek elementarny, wartość bezwględna ładunku jednego elektronu <br>($e\approx 1,60 \cdot 10^{-19}\, C$)</li>
+                <p style="margin-top:20px"><li>$n$ - liczba całkowita</li></p>
+            </ul>
+        </div>
+        <div id="ziemo4" class="step" data-x="3000" data-y="300" data-rotate="0" style="width:1350px;">
+            <p>Jeżeli w ciele znajduje się tyle samo ładunków ujemnych co dodatnich (ładunki dwóch rodzajów się równoważą i ciało ma zerowy ładunek wypadkowy), to mówimy, że ciało jest <b>elektrycznie obojętne</b>, a jeżeli w ciele znajduje się więcej ładunków któregoś rodzaju (ładunki się nie równoważą, więc ciało ma niezerowy ładunek wypadkowy), to mówimy, że ciało jest <b>naładowane</b>.</p>
+            <p style="margin-top:20px">Ładunki na siebie oddziałują. Ładunki elektryczne o tych samych znakach się odpychają, a ładunki elektryczne o przeciwnych znakach  się przyciągają.</p>
+        </div>
+        <div id="ziemo5" class="step" data-x="4500" data-y="0" data-rotate="90" style="width:1350px;">
+             <h1><center><font size="200px"><b><i>Prawo Coulomba</i></b></font></center></h1><br>
+            <div style="float:right;margin-right:100px">
+                <img src="img/Oddziaływania_międzycząstkowe.svg.png"/>
+            </div>
+            <div style="float:left;margin-left:100px;font-size:70px;">
+                <center>\begin{equation}F =\frac{1}{4\pi\epsilon_0}\cdot\frac{q_1 \cdot q_2}{r^2} \end{equation}</center>
+            </div>
+        </div>
+        <div id="ziemo6" class="step" data-x="5500" data-y="0" data-rotate="90" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Zasada zachowania ładunku</i></b></font></center></h1><br>
+            <p>Ładunek jest <b>zachowany</b>, czyli algebraiczna suma ładunków w dowolnym odizolowanym od otoczenia układzie nie może ulec zmianie.</p>
+            <center>\begin{equation}\nabla\cdot\vec{J}=-\frac{\partial \rho}{\partial t}\end{equation}</center>
+        </div>
+        <div id="ziemo7" class="step" data-x="-1500" data-y="-1500" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Zasada superpozycji</i></b></font></center></h1><br>
+            <p>Siła elektrostatyczna spełnia <b>zasadę superpozycji</b>, czyli jeśli mamy $n$ naładowanych cząstek, to oddziałują ona niezależnie w parach i siła wypadkowa $\vec{F}_{wyp.}$ działająca na dowolną z nich (np. $k$) jest równa sumie wektorowej:</p>
+            <center>\begin{equation}\vec{F}_{wyp.}=\sum_{i=1}^n \vec{F}_i,\end{equation}</center>
+            <p>gdzie $\vec{F}_i$ to siła z jaką $i$-ta cząstka oddziaływuje na $k$.</p>
+        </div>
+        <div id="ziemo8" class="step" data-x="-1500" data-y="-700" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Pole elektryczne</i></b></font></center></h1><br>
+            <p>Każdy ładunek wytwarza w przestrzeni wokół siebie <b>pole elektryczne</b>. Siła elektrostatyczna działająca na dowolny ładunek jest wywołana polem elektrycznym, wytworzonym przez inne ładunki w miejscu, w którym znajduje się rozważany ładunek.</p>
+            <p style="margin-top:20px">Natężenie pola elektrycznego E, wytworzonego przez ładunek punktowy $Q$ w punkcie $P$ oddalonym od ładunku o $r$ definiujemy wtedy wzorem:</p>
+            <center>\begin{equation}\vec{E}=\frac{1}{4\pi\epsilon_0}\cdot\frac{Q}{r^3}\cdot\vec{r}\end{equation}</center>
+            <p>Pole elektryczne jest <b>polem wektorowym</b>. Jednostką natężenia pola elektrycznego jest $\frac{N}{C}$.</p>
+        </div>
+        <div id="ziemo9" class="step" data-x="-1500" data-y="100" data-rotate="0" style="width:1350px;">
+            <p>Graficzne przedstawienie kierunku i wartości natężeń pola elektrycznego umożliwiają <b>linie pola elektrycznego</b>. Wektor natężenia pola elektrycznego w dowolnym punkcie jest styczny do linii pola przechodzącej przez ten punkt. Gęstość linii pola w dowolnym obszarze jest proporcjonalna do wartości natężenia pola w tym obszarze. Linie pola są skierowane od ładunków dodatnich do ujemnych.</p><br>
+        </div>
+        <div id="ziemo10" class="step" data-x="-1500" data-y="900" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Pole elektryczne</i></b></font></center></h1><br>
+            <div style="float:left;margin-top:80px">
+                <center><img src="img/600px-Electric_Field_Lines.svg.png"></center>
+                <center><i><font size="3px">http://upload.wikimedia.org/wikipedia/commons/thumb/2/<br>2a/Electric_Field_Lines.svg/600px-Electric_Field_Lines.svg.png</font></i></center>
+            </div>
+            <div style="float:right;">
+                <center><img src="img/Field.gif"></center>
+                <center><i><font size="3px">http://upload.wikimedia.org/wikipedia/commons/thumb/2/<br>2a/Electric_Field_Lines.svg/600px-Electric_Field_Lines.svg.png</font></i></center>
+            </div>
+        </div>
+        <div id="ziemo11" class="step" data-x="-1500" data-y="1700" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Potencjał elektryczny</i></b></font></center></h1><br>
+            <p><b>Potencjał elektryczny $\phi$ w punkcie $P$ jest dany wzorem:</b></p>
+            <p>\begin{equation}\phi(P)=\frac{W_{\infty\rightarrow P}}{q_0}\end{equation}</p>
+            <p>gdzie $W_{\infty\rightarrow P}$ to praca potrzebna na przenisienie ładunku próbnego $q_0$ z nieskończoności do punktu P.</p>
+            <p style="margin-top:20px">Potencjał elektryczny oraz pole elektryczne powiązane są następującą zależnością:</p>
+            <center>\begin{equation}\vec{E}=-\nabla\phi\end{equation}</center>
+        </div>
+        <div id="ziemo12" class="step" data-x="300" data-y="1700" data-rotate="90" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Strumień elektryczny</i></b></font></center></h1><br>
+            <p>Strumień elektryczny $\Phi_E$ przez daną powierzchnię $S$ definiujemy wzorem:</p>
+            <center>\begin{equation}\Phi_E = \int_S \vec{E}\cdot d\vec{S}\end{equation}</center>
+        </div>
+        <div id="ziemo13" class="step" data-x="1000" data-y="1700" data-rotate="90" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Prawo Gaussa</i></b></font></center></h1><br>
+            <p><b>Prawo Gaussa</b> mówi o tym, że strumień pola elektrycznego przez dowolną zamkniętą przestrzeń (zwaną powierzchnią Gaussa) jest proporcjonalny do całkowitego ładunku ograniczonego przez ta powierzchnię.</p>
+            <ul style="list-style-type:square">
+                <li><b>Postać całkowa</b></li>
+                <center>\begin{equation}\int_S \vec{E}\cdot d\vec{S}=\frac{Q_{wewn.}}{\epsilon_0}\end{equation}</center>
+                <li><b>Postać różniczkowa</b></li>
+                <center>\begin{equation}\nabla\cdot\vec{E}=\frac{\rho}{\epsilon_0}\end{equation}</center>
+            </ul>
+        </div>
+        <div id="cond1" class="step" data-x="-3000" data-y="-1500" data-rotate="0" style="width:1350px;">
+            <h1 style="font-size: 140px; text-align:center;">Prąd elektryczny</h1>
+        </div>
+        <div id="cond2" class="step" data-x="-3000" data-y="-700" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Prąd elektryczny</i></b></font></center></h1><br>
+            Prąd elektryczny - uporządkowany ruch ładunków elektrycznych.<br>
+            $I$ - natężenie prądu elektrycznego $[A]$.<br>
+            <center>\begin{equation}I=\frac{dq}{dt}\end{equation}</center>
+            $J$ - gęstość prądu elektrycznego. $J=\frac{I}{S}$
+        </div>
+        <div id="cond3" class="step" data-x="-3000" data-y="100" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Podział materiałów pod względem przewodnictwa</i></b></font></center></h1><br>
+            <div style="float:left">
+                <ul style="list-style-type:square">
+                    <li>Przewodniki (metal)</li><br>
+                    <li>Półprzewodniki (semiconductors)</li><br>
+                    <li>Izolatory (insulators)</li>
+                </ul>
+            </div>
+            <div style="float:right">
+                <center><img src="img/isolator-metal.svg"/></center>
+            </div>
+        </div>
+        <div id="cond4" class="step" data-x="-3000" data-y="900" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Półprzewodniki</i></b></font></center></h1><br>
+            <p>Półprzewodniki dzielimy na:</p>
+            <p style="margin-top:20px">
+            <ul style="list-style-type:square">
+                <li><b>Półprzewodniki samoistne</b> - półprzewodniki, których materiał jest idealnie czysty, bez żadnych zanieczyszczeń struktury krystalicznej. Koncentracja wolnych elektronów w półprzewodniku samoistnym jest równa koncentracji dziur.</li></p>
+                <p style="margin-top:20px"><li><b>Półprzewodniki domieszkowane</b>:
+                    <ul style="margin-left: 30px;list-style-type: circle;">
+                        <li>Półprzewodniki typu $n$</li>
+                        <li>Półprzewodniki typu $p$</li></p>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="cond5" class="step" data-x="-3000" data-y="1700" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Opór elektryczny</i></b></font></center></h1><br>
+            <p>Opór elektryczny (rezystancja) $R$ przewodnika dany jest wzorem:</p>
+            <center>\begin{equation}R=\frac{U}{I}\end{equation}</center>
+            <p>gdzie:</p>
+            <ul style="list-style-type:square">
+                <li>$U$ - różnica potencjałów na końcach przewodnika</li>
+                <li>$I$ - natężenie prądu przepływającego przez przewodnik</li>
+            </ul>
+            <p style="margin-top:20px">Jednostką oporu elektrycznego w układzie SI jest <b>om</b> ($\Omega$). $1\Omega=1\frac{V}{A}$</p>
+        </div>
+        <div id="cond6" class="step" data-x="-3000" data-y="2500" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Prawo Ohma</i></b></font></center></h1><br>
+                <p>Prawo Ohma głosi, że natężenie prądu przepływającego przez przewodnik jest proporcjonalne do napięcia do niego przyłożonego. Czyli:</p>
+                <center>\begin{equation}\frac{U}{I}=const.=R\end{equation}</center>
+                <p>gdzie $R$ to opór elektryczny. Prawo to jest równoważne następującemu równaniu:</p>
+            <center>\begin{equation}\vec{J}=\sigma\vec{E} \end{equation}</center>
+            <p>zwanego prawem Ohma w postaci różniczkowej, gdzie</p>
+            <ul style="list-style-type:square">
+                <li>$\vec{J}$ - gęstość prądu</li>
+                <li>$\sigma$ - przewodność właściwa</li>
+                <li>$\vec{E}$ - natężenie pola elektrycznego</li>
+            </ul>
+        </div>
+        <div id="cond7" class="step" data-x="-3000" data-y="3300" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>1. prawo Kirchhoffa</i></b></font></center></h1><br>
+            <p><center><b>Suma natężeń prądów wpływających do węzła jest równa sumie natężeń prądów wypływających z tego węzła.</b></center></p><br>
+            <div style="float:left">
+                <center>\begin{equation}I_1+I_2+I_3=I_4+I_5\end{equation}</center>
+                <p><b>Prawo to jest bezpośrednim skutkiem zasady <br>zachowania ładunku(równania ciągłości)</b></p>
+            </div>
+            <div style="float:right">
+                <center><img src="img/280px-Pierwsze_prawo_Kirchoffa.svg.png" width="300px" height="276px"/></center>
+            </div>
+        </div>
+        <div id="cond8" class="step" data-x="-3000" data-y="4100" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>2. prawo Kirchhoffa</i></b></font></center></h1><br>
+            <p><center><b>W zamkniętym obwodzie suma spadków napięć na oporach równa jest sumie sił elektromotorycznych występujących w tym obwodzie:</b></center></p><br>
+            <center>\begin{equation}\sum_k \mathscr{E}_k=\sum_i I_iR_i\end{equation}</center>
+            <p> gdzie:
+                <ul style="list-style-type:square">
+                    <li>$\mathscr{E}$- siła elektromotoryczna</li>
+                    <li>$I$ - natężenie prądu</li>
+                    <li>$R$ - opór elektryczny</li>
+                </ul>
+            </p>
+        </div>
+        <div id="mag1" class="step" data-x="1000" data-y="-1500" data-rotate="-90" style="width: 1000px;">
+            <h1 style="font-size: 140px; text-align:center;">Magnetyzm</h1>
+            <div style="text-align: center; font-size: 60px; margin-top: 55px">
+                $\nabla\cdot\vec{B}=0$<br>
+                $\nabla\times\vec{B}=\mu_0\vec{J}+\mu_0\epsilon_0\frac{\partial\vec{E}}{\partial t}$
+            </div>
+        </div>
+        <div id="mag2" class="step" data-x="1650" data-y="-1500" data-rotate="-90" style="width: 1000px;">
+            <ul>
+                <li>
+                    $\vec{B}$ - wektor indukcji pola magnetycznego $\left[ T\right]$<br><br>
+                    <center>$[T]$ - tesla, $\left[T\right] = \frac{N}{A\cdot m}$</center><br>
+                </li>
+                <li>
+                    $\Phi_B$ - strumień indukcji pola magnetycznego $[Wb]$<br>
+                    \begin{equation} \Phi_B = \int_S \vec{B}\cdot d\vec{S} \end{equation}
+                </li>
+                <li>$\mu$ - przenikalność magnetyczna ośrodka</li>
+            </ul>
+        </div>
+        <div id="mag3" class="step" data-x="2300" data-y="-1500" data-rotate="-90" style="width: 855px;">
+            <center><font size="120px"><p><b>Siła Lorentza</b></p></font></center><br>
+            <div style="float:left">  
+                <p>$\vec{F}_B = q(\vec{v}\times\vec{B})$</p><br>
+                <ul>
+                    <li>$\vec{v}$ - wektor prędkości</li>
+                    <li>$q$ - ładunek</li>
+                    <li><b><u>Siły magnetyczne<br> nie wykonują pracy!</u></b></li>
+                </ul> 
+            </div>
+            <div style="float:right">
+                <img src="img/images.jpg" height="350" widht="230"/>
+            </div>
+        </div>
+        <div id="mag4" class="step" data-x="2950" data-y="-1500" data-rotate="-90" style="width: 1000px;">
+           <center><font size="120px"><h1><b><u>Prawo Biota-Savarta</u></b></h1></font></center><br>
+           <div style="float:left">
+                <font size="90"><p>$d\vec{B}(r)=\frac{\mu_0}{4\pi}\frac{I\,d\vec{l}\times\vec{r}}{r_3}$</p></font>
+                <br>
+                <ul style="list-style-type:square">
+                    <li>$dl$ - element przewodnika</li>
+                    <li>$r$ - odległość</li>
+                    <li>$I$ - natężenie prądu</li>
+                </ul>
+            </div>
+            <div style="float:right">
+                <img src="img/Biot_Savart.svg" height="350" widht="230"/>
+            </div>
+        </div>
+        <div id="mag5" class="step" data-x="3600" data-y="-1500" data-rotate="-90" style="width: 1000px;">
+            <center><font  size="130"><h1><b>Prawo Ampère'a</b></h1></font></center><br>
+            <div style="float:left">
+                <ul style="list-style-type:square">
+                    <li>Postać całkowa<br>
+                        \begin{equation}\oint_{\Gamma}\vec{B} \cdot d\vec{l}=\mu_0 I_p\end{equation}
+                    </li>
+                    <li>Postać różniczkowa<br>
+                        \begin{equation}\nabla\times\vec{B}=\mu_0\vec{J}\end{equation}
+                    </li>
+                </ul>
+            </div>
+            <div style="float:right">
+                <img src="img/Electromagnetism.png" height="350" widht="230"/>
+            </div>
+        </div>
+        <div id="mag6" class="step" data-x="4350" data-y="-1500" data-rotate="-90" style="width: 1350px;">
+            <h1><center><font size="130px"><b>Magnetyzm materii</b></font></center></h1>
+            <ul style="list-style-type:square;margin-top:20px">
+                <li>Ferromagnetyzm - zjawisko, w którym materia wykazuje własne, spontaniczne namagnesowanie. Jest jedną z najsilniejszych postaci magnetyzmu i jest odpowiedzialny za większość magnetycznych zachowań spotykanych w życiu codziennym.</li>
+                <li>Paramagnetyzm - zjawisko magnesowania się makroskopowego ciała w zewnętrznym polu magnetycznym w kierunku zgodnym z kierunkiem pola zewnętrznego. Substancja wykazująca takie własności to paramagnetyk, jest on przyciągany przez magnes, jednak znacznie słabiej niż ferromagnetyk.</li>
+                <li>Diamagnetyzm- zjawisko polegające na indukcji w ciele znajdującym się w zewnętrznym polu magnetycznym pola przeciwnego, osłabiającego działanie zewnętrznego pola.</li>
+            </ul>
+        </div>
+        <div id="mag7" class="step" data-x="5400" data-y="-1500" data-rotate="-90" style="width: 1350px;">
+            <h1><center><font size="130px"><b>Magnetyzm materii</b></font></center></h1><br>
+            <div style="float:left" style="width:450px">
+                <center><img src="img/600px-VFPt_dipole_electric.svg.png" width="400px" height="400px"></center>
+                <center>Dipol elektryczny</center>
+                <center><i><p style="font-size:20px">http://upload.wikimedia.org/wikipedia/<br>commons/thumb/d/df/VFPt_dipole_electric.svg/<br>200px-VFPt_dipole_electric.svg.png</p></i></center>
+            </div>
+            <div style="float:right">
+                <center><img src="img/LoopCurrentMagneticMoment.png" width="450px" height="450px"></center>
+                <center><i>Model Ampere'a</i></center>
+                <center><i><p style="font-size:20px">http://en.academic.ru/pictures/enwiki/76/<br>LoopCurrentMagneticMoment.png</p></font></i></center>
+            </div>
+        </div>
+        <!--<div id="fara1" class="step" data-x="-49400" data-y="-15800" data-rotate="0" style="width:1350px;">
+            <h1 style="font-size: 120px; text-align:center;">Zjawisko indukcji magnetycznej Faradaya</h1>
+            Polecam, Stefan Grysik.
+            <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/c44.13.163.163/s160x160/945687_649173525108499_1512004917_n.jpg"/>
+        </div>
+        <div id="fara2" class="step" data-x="-49400" data-y="-16900" data-rotate="0" style="width:1350px;">
+            <div style="float:left">
+                <img src="http://upload.wikimedia.org/wikipedia/commons/9/9c/Michael_Faraday_-_Project_Gutenberg_eText_13103.jpg"/>
+            </div>
+            <div style="float:right;width:925px">
+                <p><b>Michael Faraday (1971-1867)</b> - krótka notka biograficzna</p>
+            </div>
+        </div>
+        <div id="fara3" class="step" data-x="-49400" data-y="-18000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="150px"><b><i>Zjawisko indukcji magnetycznej</i></b></font></center></h1><br>
+            <div style="float:left;margin-left:100px;">
+                <center><font size="100px">\begin{equation} \mathscr{E}_{ind.} =- \frac{d \Phi_B}{dt} \end{equation}</font></center>
+                <ul style="list-style-type:square">
+                    <li>$\mathscr{E}_{ind.}$ - SEM indukcji</li>
+                    <li>$\Phi_B$ - strumień magnetyczny</li>
+                </ul>
+                <u>SEM powstaje poprzez <b>zmianę</b> <br>strumienia magnetycznego!</u>
+            </div>
+            <div style="float:right;margin-right:100px">
+                <center><img src="http://2.bp.blogspot.com/-4D3lAJ0qbh4/TcerOJGEuiI/AAAAAAAAAfU/Ag5LrUjSpDU/s400/Electromagnetic-induction.gif" height="450px" width="300px"/></center>
+            </div>
+        </div>
+        <div id="fara4" class="step" data-x="-49400" data-y="-19000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="150px"><b><i>Prawo indukcji Faradaya - wyprowadzenie</i></b></font></center></h1><br>
+            <div style="float:left">
+               <p> \begin{equation}F_B=IBl\end{equation}</p>
+            <p>Zasada Zachowania Energii:</p><center>\begin{equation}dW_{\mathscr{E}_0}=dQ+dW_{F_B}\end{equation}</center>
+            <p>$Q$ - ciepło</p>
+            <p style="margin-top:20px">$W_{\mathscr{E}_0}$ - praca SEM ogniwa</p>
+            </div>
+            <div style="float:right">
+                <center><img src="faraday.png"/></center>
+            </div>
+        </div>
+        <div id="fara5" class="step" data-x="-49400" data-y="-21000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="150px"><b><i>Prawo indukcji Faradaya - wyprowadzenie c.d.</i></b></font></center></h1><br>
+            <div style="float:left;margin-left:-20px;margin-top:40px">
+                <p>$dW_{F_B}=BIl\cdot dx=BI\cdot dS=I\cdot d\Phi_B$</p>
+                <p style="margin-top:20px">$dW_{\mathscr{E}_0}=\mathscr{E}_0 dq=\mathscr{E_0}\cdot I\cdot dt$</p>
+                <p style="margin-top:20px">$dQ=I^2\cdot R\cdot dt$</p>
+                <p style="margin-top:25px">\begin{equation}\mathscr{E}_0 + \left(-\frac{d\Phi_B}{dt}\right)=IR\end{equation}</p>
+            </div>
+            <div style="float:right;margin-right: -120px;margin-top: -32px;">
+                <center><img src="faraday.png"/></center>
+            </div>
+        </div>
+        <!--ZJAWISKO FOTOWOLTANICZNE
+        <div id="foto1" class="step" data-x="42500" data-y="-15000" data-rotate="-90" style="width: 1350px;">
+            <h1 style="font-size: 140px; text-align:center;">Zjawisko fotoelektryczne wewnętrzne</h1>
+        </div>
+        <div id="foto2" class="step" data-x="43500" data-y="-15800" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="130px"><b><i>Zjawisko fotoelektryczne</i></b></font></center></h1><br>
+            <center><img src="http://www.bog5.in.ua/lection/quantum_optics_lect/image_quant/clip_image002_0001.jpg" height="350" widht="230"/></center><br>
+            <center><i><font size="3px">http://www.bog5.in.ua/lection/quantum_optics_lect/image_quant/clip_image002_0001.jpg</font></i></center>
+        </div>
+        <div id="foto3" class="step" data-x="45200" data-y="-15800" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="150px"><b><i>Fotoprąd</i></b></font></center></h1><br>
+            <div style="float:right">
+                <center><img src="http://sub.allaboutcircuits.com/images/03447.png" height="350" widht="230"/></center>
+                <center><i><font size="4px">http://sub.allaboutcircuits.com/images/03447.png</font></i></center>
+            </div>
+            <div style="float:left">
+                <br>
+                <ul style="list-style-type:square">
+                    <li>Przejście fotonu przez warstwę zaporową</li>
+                    <li>Powstanie pary elektron-dziura</li>
+                    <li>Ruch nośników do katody i anody</li>
+                    <li>Powstanie prądu</li>
+                </ul>
+            </div>
+        </div>
+        <div id="foto4" class="step" data-x="47400" data-y="-15800" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="150px"><b><i>Fotodioda</i></b></font></center></h1><br>
+            <div style="float:left">
+                <center><img src="http://upload.wikimedia.org/wikipedia/commons/f/f8/Photodiode-closeup.jpg" height="350" widht="230"/></center>
+                <center><i><font size="3px">http://upload.wikimedia.org/wikipedia/commons/f/f8/Photodiode-closeup.jpg</font></i></center>
+            </div>
+            <div style="float:right">
+                <center><img src="http://anshu2rime.files.wordpress.com/2009/01/op906.jpg" height="350" widht="230"/></center>
+                <center><i><font size="3px">http://anshu2rime.files.wordpress.com/2009/01/op906.jpg</font></i></center>
+            </div>
+        </div>
+        <div id="foto5" class="step" data-x="49400" data-y="-15800" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="150px"><b><i>Zastosowania</i></b></font></center></h1><br>
+            <ul style="list-style-type:square">
+                <li>Fotometria</li>
+                <li>Energia słoneczna</li>
+                <li>Automatyka przemysłowa</li>
+                <li>W układach pomiarowych wielkości elektrycznych i nieelektrycznych, np. odległości, amplitutd, naprężeń, stężeń roztworów itp.</li>
+            </ul>
+        </div>
+        <div id="foto6" class="step" data-x="51400" data-y="-15800" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="150px"><b><i>Ogniwa solarne</i></b></font></center></h1><br>
+            <div style="float:left">
+                <br>
+                <center><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Solar_Panels.jpg/800px-Solar_Panels.jpg" height="300" widht="200"/></center>
+                <center><i><font size="3px">http://upload.wikimedia.org/wikipedia/commons/thumb/3/37/<br>Solar_Panels.jpg/800px-Solar_Panels.jpg</font></i></center>
+            </div>
+            <div style="float:right">
+                <center><img src="http://2.bp.blogspot.com/-jPnCDbEmhyw/TWK4RzAD7RI/AAAAAAAAAQU/UZrHYS129m4/s1600/solar_panel_and_solar_cell.gif" height="461" widht="376"/></center>
+                <center><i><font size="3px">http://2.bp.blogspot.com/-jPnCDbEmhyw/<br>TWK4RzAD7RI/AAAAAAAAAQU/UZrHYS129m4/s1600/solar_panel_and_solar_cell.gif</font></i></center>
+            </div>
+        </div>
+        <div id="cond1" class="step" data-x="-100000" data-y="-100000" data-rotate="90" style="width:1350px;">
+            <h1 style="font-size: 140px; text-align:center;">Prąd elektryczny</h1>
+        </div>
+        <div id="cond2" class="step" data-x="-102000" data-y="-100000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Prąd elektryczny</i></b></font></center></h1><br>
+            Prąd elektryczny - uporządkowany ruch ładunków elektrycznych.<br>
+            $I$ - natężenie prądu elektrycznego $[A]$.<br>
+            <center>\begin{equation}I=\frac{dq}{dt}\end{equation}</center>
+            $J$ - gęstość prądu elektrycznego. $J=\frac{I}{S}$
+        </div>
+        <div id="cond3" class="step" data-x="-104000" data-y="-100000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Podział materiałów pod względem przewodnictwa</i></b></font></center></h1><br>
+            <div style="float:left">
+                <ul style="list-style-type:square">
+                    <li>Przewodniki (metal)</li><br>
+                    <li>Półprzewodniki (semiconductors)</li><br>
+                    <li>Izolatory (insulators)</li>
+                </ul>
+            </div>
+            <div style="float:right">
+                <center><img src="https://d3r4ecz8hnfnqf.cloudfront.net/50982670e4b0be4169c0a067/raw/isolator-metal.svg"/></center>
+            </div>
+        </div>
+        <div id="cond4" class="step" data-x="-106000" data-y="-100000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Półprzewodniki</i></b></font></center></h1><br>
+            <p>Półprzewodniki dzielimy na:</p>
+            <p style="margin-top:20px">
+            <ul style="list-style-type:square">
+                <li><b>Półprzewodniki samoistne</b> - półprzewodniki, których materiał jest idealnie czysty, bez żadnych zanieczyszczeń struktury krystalicznej. Koncentracja wolnych elektronów w półprzewodniku samoistnym jest równa koncentracji dziur.</li></p>
+                <p style="margin-top:20px"><li><b>Półprzewodniki domieszkowane</b>:
+                    <ul style="margin-left: 30px;list-style-type: circle;">
+                        <li>Półprzewodniki typu $n$</li>
+                        <li>Półprzewodniki typu $p$</li></p>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="cond5" class="step" data-x="-108000" data-y="-100000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Opór elektryczny</i></b></font></center></h1><br>
+            <p>Opór elektryczny (rezystancja) $R$ przewodnika dany jest wzorem:</p>
+            <center>\begin{equation}R=\frac{U}{I}\end{equation}</center>
+            <p>gdzie:</p>
+            <ul style="list-style-type:square">
+                <li>$U$ - różnica potencjałów na końcach przewodnika</li>
+                <li>$I$ - natężenie prądu przepływającego przez przewodnik</li>
+            </ul>
+            <p style="margin-top:20px">Jednostką oporu elektrycznego w układzie SI jest <b>om</b> ($\Omega$). $1\Omega=1\frac{V}{A}$</p>
+        </div>
+        <div id="cond6" class="step" data-x="-110000" data-y="-100000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>Prawo Ohma</i></b></font></center></h1><br>
+                <p>Prawo Ohma głosi, że natężenie prądu przepływającego przez przewodnik jest proporcjonalne do napięcia do niego przyłożonego. Czyli:</p>
+                <center>\begin{equation}\frac{U}{I}=const.=R\end{equation}</center>
+                <p>gdzie $R$ to opór elektryczny. Prawo to jest równoważne następującemu równaniu:</p>
+            <center>\begin{equation}\vec{J}=\sigma\vec{E} \end{equation}</center>
+            <p>zwanego prawem Ohma w postaci różniczkowej, gdzie</p>
+            <ul style="list-style-type:square">
+                <li>$\vec{J}$ - gęstość prądu</li>
+                <li>$\sigma$ - przewodność właściwa</li>
+                <li>$\vec{E}$ - natężenie pola elektrycznego</li>
+            </ul>
+        </div>
+        <div id="cond7" class="step" data-x="-112000" data-y="-100000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>1. prawo Kirchhoffa</i></b></font></center></h1><br>
+            <p><center><b>Suma natężeń prądów wpływających do węzła jest równa sumie natężeń prądów wypływających z tego węzła.<b></center></p><br>
+            <div style="float:left">
+                <center>\begin{equation}I_1+I_2+I_3=I_4+I_5\end{equation}</center>
+                <p><b>Prawo to jest bezpośrednim skutkiem zasady <br>zachowania ładunku(równania ciągłości)</b></p>
+            </div>
+            <div style="float:right">
+                <center><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Pierwsze_prawo_Kirchoffa.svg/280px-Pierwsze_prawo_Kirchoffa.svg.png" width="300px" height="276px"/></center>
+            </div>
+        </div>
+        <div id="cond8" class="step" data-x="-114000" data-y="-100000" data-rotate="0" style="width:1350px;">
+            <h1><center><font size="200px"><b><i>2. prawo Kirchhoffa</i></b></font></center></h1><br>
+            <p><center><b>W zamkniętym obwodzie suma spadków napięć na oporach równa jest sumie sił elektromotorycznych występujących w tym obwodzie:</b></center></p><br>
+            <center>\begin{equation}\sum_k \mathscr{E}_k=\sum_i I_iR_i\end{equation}</center>
+            <p> gdzie:
+                <ul style="list-style-type:square">
+                    <li>$\mathscr{E}$- siła elektromotoryczna</li>
+                    <li>$I$ - natężenie prądu</li>
+                    <li>$R$ - opór elektryczny</li>
+                </ul>
+            </p>
+        </div>-->
+        <div id="overview" class="step present active" data-x="0000" data-y="1000" data-scale="8" style="position: absolute; -webkit-transform: translate(-50%, -50%) translate3d(3000px, 1500px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(10); -webkit-transform-style: preserve-3d;">
+        </div>
+    </div>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+</body>
+</html>
