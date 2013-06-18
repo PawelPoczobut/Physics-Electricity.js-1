@@ -12,6 +12,6 @@ Osoby w projekcie:
 ## Struktora folderów
 
 * `$$$` - Luźny folder na pomysły
-* `Wtorek` - Część teorytyczna
-* `Czwartek` - Część doświatczalna
+* `Wtorek` - Część teorytyczna [100%]
+* `Czwartek` - Część doświatczalna [30%]
 * `Final` - Końcowy projekt który wrzucimy do internetu
